@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="css/cep.css">
+
+    <link rel="icon" type="png" href="imagens/icone.png">
+</head>
+
+<body>
+    <h1 id="voltar">Clique "Esc" para voltar</h1>
+
+    <div id="formulario">
+        <form id="formulario2" action="">
+            <legend id="titulo">Digite o seu CEP</legend> <br>
+            <label id="labelCep" for="">CEP</label> <br>
+            <input id="inputCep" type="text">
+            <br><br>
+            <label id="labelRua" for="">Rua</label> <br>
+            <input id="inputRua" type="text" readonly>
+            <br><br>
+            <label id="labelNumero" for="">Número</label> <br>
+            <input id="inputNumero" type="text">
+            <br><br>
+            <label id="labelBairro" for="">Bairro</label> <br>
+            <input id="inputBairro" type="text" readonly>
+            <br><br>
+            <label id="labelCidade" for="">Cidade</label> <br>
+            <input id="inputCidade" type="text" readonly>
+            <br><br>
+            <label id="labelEstado" for="">Estado</label> <br>
+            <input id="inputEstado" type="text" readonly>
+        </form>
+    </div>
+
+    <script src="Javascript/cep.js"></script>
+</body>
+
+</html>

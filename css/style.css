@@ -1,0 +1,64 @@
+body {
+  background-image: url(../imagens/fundoPaginaInicial.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#titulo {
+  font-family: 'Roboto', sans-serif;
+  padding: 250px 0 0 0;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.75rem rgb(197, 0, 0));
+}
+
+#navegacao {
+  font-family: 'Montserrat', sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  gap: 50px;
+  border: 3px solid #ffffff1d;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  padding: 25px;
+  width: 1350px;
+
+
+  filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+}
+
+.linkNavegacao {
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.linkNavegacao:hover{
+  animation: animacao 0.5s forwards;
+}
+
+@keyframes animacao {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

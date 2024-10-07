@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CPF</title>
+    <link rel="stylesheet" href="css/cpf.css">
+
+    <link rel="icon" type="png" href="imagens/icone.png">
+</head>
+
+<body>
+    <h1 id="voltar">Clique "Esc" para voltar</h1>
+    
+    <div id="procuraDeCPF">
+        <h1 id="titulo">Digite o CPF</h1>
+        <a id="cpfLink" target="_blank" href="https://github.com/GuilhSchneider/JSON-das-API"><h1>Clique aqui para acessar os CPF</h1></a>
+        <input type="number" id="valor" placeholder="Digite o seu CPF">
+        <button id="procurar" onclick="buscar()">Buscar</button>
+        <div id="erro"></div>
+    </div>
+
+
+    <div id="baseRG">
+        <div id="corpoRG">
+            <h1 id="tituloRG">REPUBLICA FEDERATIVA DO BRASIL</h1>
+            <div id="dadosRG">
+                <h1 id="carregar">Carregando...</h1>
+                
+                <div id="nomeCompleto"></div>
+                <div id="imagem"></div>
+                <div id="pais"></div>
+                <div id="cidade"></div>
+                <div id="profissao"></div>
+            </div>
+            <h1 id="subTituloRG">CARTEIRA DE IDENTIDADE</h1>
+        </div>
+    </div>
+
+    <script src="Javascript/cpf.js"></script>
+
+</body>
+
+</html>

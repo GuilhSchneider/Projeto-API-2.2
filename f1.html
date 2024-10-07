@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotos da Formula 1</title>
+    <link rel="icon" type="png" href="imagens/icone.png">
+    <link rel="stylesheet" href="css/f1.css">
+</head>
+<body>
+    <h1 id="voltar">Clique "Esc" para voltar</h1>
+
+    <div id="botoes">        
+        <button onclick="procurarPiloto('Ayrton Senna')" id="botaoAyrton">Ayrton Senna</button> <br>
+        <button onclick="procurarPiloto('Lewis Hamilton')" id="botaoLewis">Lewis Hamilton</button> <br>
+        <button onclick="procurarPiloto('Sebastian Vettel')" id="botaoSebastian">Sebastian Vettel</button> <br>
+        <button onclick="procurarPiloto('Michael Schumacher')" id="botaoMichael">Michael Schumacher</button> <br>
+        <button onclick="procurarPiloto('Alain Prost')" id="botaoAlain">Alain Prost</button> <br>
+        <button onclick="procurarPiloto('Max Verstappen')" id="botaoMax">Max Verstappen</button>
+    </div>
+    
+    <div id="pilotos">
+        <div id="imagem"></div>
+        <div id="nome"></div>
+        <div id="idade"></div>
+        <div id="nacionalidade"></div>
+        <div id="historia"></div>
+    </div>
+
+    <script src="Javascript/formula1.js"></script>
+</body>
+</html>

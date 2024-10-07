@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Clima</title>
+    <link rel="stylesheet" href="css/clima.css">
+
+    <link rel="icon" type="png" href="imagens/icone.png">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <h1 id="voltar">Clique "Esc" para voltar</h1>
+
+    <div id="clima">
+        <div id="clima2">
+            <h1 id="titulo">Previsão do Clima</h1>
+            <p id="subTitulo">Digite o nome da Cidade</p>
+            <input type="text" id="inputCity"> <br> <br>
+            <button id="botao" onclick="getWeather()">Pesquisar</button>
+            <p id="temperatura">Carregando...</p>
+            <p id="semMundial"></p>
+        </div>
+    </div>
+
+    <script src="Javascript/tempoMundial.js"></script>
+</body>
+
+</html>

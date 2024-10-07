@@ -1,0 +1,217 @@
+body{
+    background-image: url(../imagens/fundoApiFormula1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#voltar{
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0 0 0;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgb(197, 0, 0));
+}
+
+#botaoAyrton{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoLewis{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoSebastian{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoMichael{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoAlain{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+    
+    position: absolute;
+    top: 45%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoMax{
+    border: 2px solid black;
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #900000;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+
+    position: absolute;
+    top: 65%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+#botaoAyrton:hover,
+#botaoLewis:hover,
+#botaoSebastian:hover,
+#botaoMichael:hover,
+#botaoAlain:hover,
+#botaoMax:hover
+{
+    height: 45px;
+    width: 205px;
+}
+
+
+#pilotos{
+    background-color: rgba(255, 255, 255, 0.850);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 570px;
+    width: 610px;
+    opacity: 0.9;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem{
+    position: fixed;
+    top: 10px;
+
+    filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0))
+}
+
+#nome{
+    position: relative;
+    top: 160px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+    filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0))
+}
+
+#idade{
+    position: relative;
+    top: 160px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+    filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0))
+}
+
+#nacionalidade{
+    position: relative;
+    top: 160px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 550;
+
+    filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0))
+}
+
+#historia{
+    position: relative;
+    top: 160px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    width: 500px;
+
+    filter: drop-shadow(0 0 0.5rem rgb(0, 0, 0))
+}

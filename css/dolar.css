@@ -1,0 +1,56 @@
+body {
+    background-image: url(../imagens/fundoApiDolar.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#voltar{
+    font-family: 'Roboto', sans-serif;
+    padding: 190px 0 0 0;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgb(197, 0, 0));
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+#valores {
+    border: 3px solid #ffffff1d;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    padding: 25px;
+    filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    gap: 50px;
+    font-size: 25px;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#valorDolar::before {
+    content: 'Valor do dolar agora: ';
+}
+
+#maiorValorDoDia::before {
+    content: 'Maior valor do dolar hoje: ';
+}
+
+#menorValorDoDia::before {
+    content: 'Menor valor do dolar hoje: ';
+}
